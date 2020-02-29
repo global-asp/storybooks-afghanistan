@@ -78,21 +78,21 @@
 			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/en/0067/mp3/01.mp3"></audio>
 			<button onclick="switchlang('en,fa','fa,ps,en')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان و انگلیسی">fa</button>
 			<button onclick="switchlang('en,ps','fa,ps,en')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو و انگلیسی">ps</button>
-		</div>
-		<h3><span class="tooltip tooltip-right" data-tooltip="نویسنده"><img class="cover-icon cover-icon-text" src="/storybooks-afghanistan/css/pencil.svg" alt="نویسنده"></span> Clare Verbeek, Thembani Dladla, Zanele Buthelezi</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="نقاش"><img class="cover-icon cover-icon-text" src="/storybooks-afghanistan/css/art.svg" alt="نقاش"></span> Kathy Arbuckle, Ingrid Schechter</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="خواننده"><img class="cover-icon cover-icon-text" src="/storybooks-afghanistan/css/megaphone.svg" alt="خواننده"></span> Darshan Soni</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="زبان"><img class="cover-icon cover-icon-text" src="/storybooks-afghanistan/css/language.svg" alt="زبان"></span> <a href="/storybooks-afghanistan/stories/en">انگلیسی</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="سطح"><img class="cover-icon cover-icon-text" src="/storybooks-afghanistan/css/level.svg" alt="سطح"></span> <a href="/storybooks-afghanistan/stories/en/level1">سطح 1</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="متن کامل صوتی کتاب"><img class="cover-icon cover-icon-audio" src="/storybooks-afghanistan/css/speaker.svg" alt="متن کامل صوتی کتاب"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/en/0067/en-0067_cooking.mp3" type="audio/mpeg"></audio></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Reading speed"><img class="cover-icon cover-icon-text" src="/storybooks-afghanistan/css/speedometer.svg" alt="Reading speed" style="cursor:pointer" onclick="normalspeed()"></span> <span id="slider_tooltip" class="tooltip" data-tooltip="Reading speed: 1×"><input type="range" min="0.5" max="1.5" value="1" step="0.05" id="audio_slider" class="slider" oninput="adjustslider()"></span></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="شروع خودبخودی داستان (بیتا)"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="/storybooks-afghanistan/css/play.svg" alt="شروع خودبخودی داستان" style="cursor:pointer" onclick="autoplay()"></span></h3>
+		</div><style>.cover-icon {margin-left:5px;}</style>
+		<h3><span class="tooltip tooltip-left" data-tooltip="نویسنده"><img class="cover-icon cover-icon-text" src="/storybooks-afghanistan/css/pencil.svg" alt="نویسنده"></span> Clare Verbeek, Thembani Dladla, Zanele Buthelezi</h3>
+		<h3><span class="tooltip tooltip-left" data-tooltip="نقاش"><img class="cover-icon cover-icon-text" src="/storybooks-afghanistan/css/art.svg" alt="نقاش"></span> Kathy Arbuckle, Ingrid Schechter</h3>
+		<h3><span class="tooltip tooltip-left" data-tooltip="خواننده"><img class="cover-icon cover-icon-text" src="/storybooks-afghanistan/css/megaphone.svg" alt="خواننده"></span> Darshan Soni</h3>
+		<h3><span class="tooltip tooltip-left" data-tooltip="زبان"><img class="cover-icon cover-icon-text" src="/storybooks-afghanistan/css/language.svg" alt="زبان"></span> <a href="/storybooks-afghanistan/stories/en">انگلیسی</a></h3>
+		<h3><span class="tooltip tooltip-left" data-tooltip="سطح"><img class="cover-icon cover-icon-text" src="/storybooks-afghanistan/css/level.svg" alt="سطح"></span> <a href="/storybooks-afghanistan/stories/en/level1">سطح 1</a></h3>
+		<h3><span class="tooltip tooltip-left" data-tooltip="متن کامل صوتی کتاب"><img class="cover-icon cover-icon-audio" src="/storybooks-afghanistan/css/speaker.svg" alt="متن کامل صوتی کتاب"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/en/0067/en-0067_cooking.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-left" data-tooltip="Reading speed"><img class="cover-icon cover-icon-text" src="/storybooks-afghanistan/css/speedometer.svg" alt="Reading speed" style="cursor:pointer" onclick="normalspeed()"></span> <span id="slider_tooltip" class="tooltip" data-tooltip="Reading speed: 1×"><input type="range" min="0.5" max="1.5" value="1" step="0.05" id="audio_slider" class="slider" oninput="adjustslider()"></span></h3>
+		<h3><span class="tooltip tooltip-left" data-tooltip="شروع خودبخودی داستان (بیتا)"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="/storybooks-afghanistan/css/play.svg" alt="شروع خودبخودی داستان" style="cursor:pointer" onclick="autoplay()"></span></h3>
 	</div>
 </div>
 
 <hr>
 
-<div id="text02" class="columns">
+        <div id="text02" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0067/02.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level1-txt def"><h3 dir="ltr">
 	I peel the potatoes.
@@ -318,7 +318,8 @@ when they are chopped.
 </div>
 <hr>
 
-<div id="colophon" class="columns">
+
+        <div id="colophon" class="columns">
 	<div class="column col-7 col-lg-12 col-md-12 col-sm-12">
 		<h5><span class="colophon-heading">نویسنده:</span> Clare Verbeek, Thembani Dladla, Zanele Buthelezi</h5>
 		<h5><span class="colophon-heading">نقاش:</span> Kathy Arbuckle, Ingrid Schechter</h5>
@@ -353,7 +354,6 @@ when they are chopped.
 	<a class="btn btn-lg" href="/storybooks-afghanistan/stories/en" class="button">برگشت به فهرست داستان‌ها</a> <span class="tooltip tooltip-top" data-tooltip="PDF download for this story is currently not available."><a class="btn btn-lg disabled">بارگذاری پی دی اف</a></span>
 <br><br>
 </div>
-
 
 
     </div>
