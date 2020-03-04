@@ -47,19 +47,13 @@
 	</section>
 </header>
 
-        <div class="float-left"><span class="tooltip tooltip-right" data-tooltip="PDF download for this story is currently not available."><a class="btn btn-lg disabled">بارگذاری پی دی اف</a></span></div>
+        <div class="float-left"><span class="tooltip tooltip-right" data-tooltip="بارگذاری پی دی اف برای این داستان فعلاً ممکن نیست."><a class="btn btn-lg disabled">بارگذاری پی دی اف</a></span></div>
 
 <div class="float-left">
 	<select class="btn btn-lg" onchange="window.location=this.value" accesskey="l">
 		<option selected="" disabled="">تغییر زبان</option>
-		<option value="/storybooks-afghanistan/stories/fa/0006">فارسی افغانستان</option>
+		<option value="/storybooks-afghanistan/stories/prs/0006">فارسی افغانستان</option>
 		<option value="/storybooks-afghanistan/stories/ps/0006">پشتو</option>
-		<option value="/storybooks-afghanistan/stories/ar/0006">عربی</option>
-		<option value="/storybooks-afghanistan/stories/en/0006">انگلیسی</option>
-		<option value="/storybooks-afghanistan/stories/fr/0006">فرانسوی</option>
-		<option value="/storybooks-afghanistan/stories/hi/0006">هندی</option>
-		<option value="/storybooks-afghanistan/stories/ur/0006">اردو</option>
-		<option value="/storybooks-afghanistan/stories/zh/0006">چینی</option>
 	</select>
 </div>
 
@@ -76,17 +70,17 @@
 			<a href="#text02" class="btn btn-lg" title="صفحه بعدی"><i class="icon-arrow-down"></i></a>
 			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="شروع/مکث"><i class="icon-volume-up"></i></button>
 			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/fa/0006/mp3/01.mp3"></audio>
-			<button onclick="switchlang('fa,fa','fa,ps,fa')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان و فارسی">fa</button>
-			<button onclick="switchlang('fa,ps','fa,ps,fa')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو و فارسی">ps</button>
+			<button onclick="switchlang('fa,prs','prs,ps,fa')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان و فارسی ایران">prs</button>
+			<button onclick="switchlang('fa,ps','prs,ps,fa')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو و فارسی ایران">ps</button>
 		</div><style>.cover-icon {margin-left:5px;}</style>
 		<h3><span class="tooltip tooltip-left" data-tooltip="نویسنده"><img class="cover-icon cover-icon-text" src="/storybooks-afghanistan/css/pencil.svg" alt="نویسنده"></span> Ghanaian folktale</h3>
 		<h3><span class="tooltip tooltip-left" data-tooltip="نقاش"><img class="cover-icon cover-icon-text" src="/storybooks-afghanistan/css/art.svg" alt="نقاش"></span> Wiehan de Jager</h3>
 		<h3><span class="tooltip tooltip-left" data-tooltip="مترجم"><img class="cover-icon cover-icon-text" src="/storybooks-afghanistan/css/global.svg" alt="مترجم"></span> Marzieh Mohammadian Haghighi</h3>
 		<h3><span class="tooltip tooltip-left" data-tooltip="خواننده"><img class="cover-icon cover-icon-text" src="/storybooks-afghanistan/css/megaphone.svg" alt="خواننده"></span> Nasim Peikazadi</h3>
-		<h3><span class="tooltip tooltip-left" data-tooltip="زبان"><img class="cover-icon cover-icon-text" src="/storybooks-afghanistan/css/language.svg" alt="زبان"></span> <a href="/storybooks-afghanistan/stories/fa">فارسی</a></h3>
+		<h3><span class="tooltip tooltip-left" data-tooltip="زبان"><img class="cover-icon cover-icon-text" src="/storybooks-afghanistan/css/language.svg" alt="زبان"></span> <a href="/storybooks-afghanistan/stories/fa">فارسی ایران</a></h3>
 		<h3><span class="tooltip tooltip-left" data-tooltip="سطح"><img class="cover-icon cover-icon-text" src="/storybooks-afghanistan/css/level.svg" alt="سطح"></span> <a href="/storybooks-afghanistan/stories/fa/level3">سطح 3</a></h3>
 		<h3><span class="tooltip tooltip-left" data-tooltip="متن کامل صوتی کتاب"><img class="cover-icon cover-icon-audio" src="/storybooks-afghanistan/css/speaker.svg" alt="متن کامل صوتی کتاب"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/fa/0006/fa-0006_anansi.mp3" type="audio/mpeg"></audio></h3>
-		<h3><span class="tooltip tooltip-left" data-tooltip="Reading speed"><img class="cover-icon cover-icon-text" src="/storybooks-afghanistan/css/speedometer.svg" alt="Reading speed" style="cursor:pointer" onclick="normalspeed()"></span> <span id="slider_tooltip" class="tooltip" data-tooltip="Reading speed: 1×"><input type="range" min="0.5" max="1.5" value="1" step="0.05" id="audio_slider" class="slider" oninput="adjustslider()"></span></h3>
+		<h3><span class="tooltip tooltip-left" data-tooltip="سرعت خوانش"><img class="cover-icon cover-icon-text" src="/storybooks-afghanistan/css/speedometer.svg" alt="سرعت خوانش" style="cursor:pointer" onclick="normalspeed()"></span> <span id="slider_tooltip" class="tooltip" data-tooltip="سرعت خوانش: 1×"><input type="range" min="0.5" max="1.5" value="1" step="0.05" id="audio_slider" class="slider" oninput="adjustslider()"></span></h3>
 		<h3><span class="tooltip tooltip-left" data-tooltip="شروع خودبخودی داستان (بیتا)"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="/storybooks-afghanistan/css/play.svg" alt="شروع خودبخودی داستان" style="cursor:pointer" onclick="autoplay()"></span></h3>
 	</div>
 </div>
@@ -112,8 +106,8 @@
 		<button class="btn btn-lg" id="playbutton02" onclick="playpause('02')" title="شروع/مکث"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('fa,fa','fa,ps,fa')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان و فارسی">fa</button>
-		<button onclick="switchlang('fa,ps','fa,ps,fa')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو و فارسی">ps</button>
+		<button onclick="switchlang('fa,prs','prs,ps,fa')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان و فارسی ایران">prs</button>
+		<button onclick="switchlang('fa,ps','prs,ps,fa')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو و فارسی ایران">ps</button>
 	</div>
 </div>
 
@@ -139,8 +133,8 @@
 		<button class="btn btn-lg" id="playbutton03" onclick="playpause('03')" title="شروع/مکث"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('fa,fa','fa,ps,fa')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان و فارسی">fa</button>
-		<button onclick="switchlang('fa,ps','fa,ps,fa')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو و فارسی">ps</button>
+		<button onclick="switchlang('fa,prs','prs,ps,fa')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان و فارسی ایران">prs</button>
+		<button onclick="switchlang('fa,ps','prs,ps,fa')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو و فارسی ایران">ps</button>
 	</div>
 </div>
 
@@ -166,8 +160,8 @@
 		<button class="btn btn-lg" id="playbutton04" onclick="playpause('04')" title="شروع/مکث"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('fa,fa','fa,ps,fa')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان و فارسی">fa</button>
-		<button onclick="switchlang('fa,ps','fa,ps,fa')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو و فارسی">ps</button>
+		<button onclick="switchlang('fa,prs','prs,ps,fa')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان و فارسی ایران">prs</button>
+		<button onclick="switchlang('fa,ps','prs,ps,fa')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو و فارسی ایران">ps</button>
 	</div>
 </div>
 
@@ -193,8 +187,8 @@
 		<button class="btn btn-lg" id="playbutton05" onclick="playpause('05')" title="شروع/مکث"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('fa,fa','fa,ps,fa')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان و فارسی">fa</button>
-		<button onclick="switchlang('fa,ps','fa,ps,fa')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو و فارسی">ps</button>
+		<button onclick="switchlang('fa,prs','prs,ps,fa')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان و فارسی ایران">prs</button>
+		<button onclick="switchlang('fa,ps','prs,ps,fa')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو و فارسی ایران">ps</button>
 	</div>
 </div>
 
@@ -220,8 +214,8 @@
 		<button class="btn btn-lg" id="playbutton06" onclick="playpause('06')" title="شروع/مکث"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('fa,fa','fa,ps,fa')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان و فارسی">fa</button>
-		<button onclick="switchlang('fa,ps','fa,ps,fa')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو و فارسی">ps</button>
+		<button onclick="switchlang('fa,prs','prs,ps,fa')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان و فارسی ایران">prs</button>
+		<button onclick="switchlang('fa,ps','prs,ps,fa')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو و فارسی ایران">ps</button>
 	</div>
 </div>
 
@@ -247,8 +241,8 @@
 		<button class="btn btn-lg" id="playbutton07" onclick="playpause('07')" title="شروع/مکث"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('fa,fa','fa,ps,fa')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان و فارسی">fa</button>
-		<button onclick="switchlang('fa,ps','fa,ps,fa')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو و فارسی">ps</button>
+		<button onclick="switchlang('fa,prs','prs,ps,fa')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان و فارسی ایران">prs</button>
+		<button onclick="switchlang('fa,ps','prs,ps,fa')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو و فارسی ایران">ps</button>
 	</div>
 </div>
 
@@ -262,11 +256,11 @@
 		<h5><span class="colophon-heading">نقاش:</span> Wiehan de Jager</h5>
 		<h5><span class="colophon-heading">مترجم:</span> Marzieh Mohammadian Haghighi</h5>
 		<h5><span class="colophon-heading">خواننده:</span> Nasim Peikazadi</h5>
-		<h5><span class="colophon-heading">زبان:</span> <a href="/storybooks-afghanistan/stories/fa">فارسی</a></h5>
+		<h5><span class="colophon-heading">زبان:</span> <a href="/storybooks-afghanistan/stories/fa">فارسی ایران</a></h5>
 		<h5><span class="colophon-heading">سطح:</span> <a href="/storybooks-afghanistan/stories/fa/level3">سطح 3</a></h5>
 		<h5><span class="colophon-heading">منبع:</span> <a href="https://africanstorybook.org/reader.php?id=1938" target="_blank">Anansi and Wisdom</a> از <a href="https://africanstorybook.org/">داستان افریقا</a></h5>
 
-		<div><a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.fa" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />تحت مجوز <a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.fa" target="_blank">Creative Commons اعتباردهی 3.0 International License</a> کریتز کامنز به نشر رسید.</div>
+		<div><a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.fa" target="_blank"><img alt="جواز کریتو کامینز" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />تحت مجوز <a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.fa" target="_blank">کریتو کامینز اعتباردهی 3.0 تبدیل نشده</a> کریتز کامنز به نشر رسید.</div>
 
 	</div>
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12">
@@ -281,8 +275,8 @@
 	</div>
 </div>
 <div>
-<h5>گزینه ها</h5>
-	<a class="btn btn-lg" href="/storybooks-afghanistan/stories/fa" class="button">برگشت به فهرست داستان‌ها</a> <span class="tooltip tooltip-top" data-tooltip="PDF download for this story is currently not available."><a class="btn btn-lg disabled">بارگذاری پی دی اف</a></span>
+<h5>گزینه‌ها</h5>
+	<a class="btn btn-lg" href="/storybooks-afghanistan/stories/fa" class="button">برگشت به فهرست داستان‌ها</a> <span class="tooltip tooltip-top" data-tooltip="بارگذاری پی دی اف برای این داستان فعلاً ممکن نیست."><a class="btn btn-lg disabled">بارگذاری پی دی اف</a></span>
 <br><br>
 </div>
 
