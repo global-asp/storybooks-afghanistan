@@ -12,13 +12,13 @@
 	<link rel="shortcut icon" href="/storybooks-afghanistan/favicon.ico?v=4">
 	<meta name="msapplication-TileColor" content="#00aba9">
 	<meta name="theme-color" content="#ffffff">
-	<title>A very tall man - داستان برای افغانستان</title>
+	<title>یو ډیر لوړ سړی - داستان برای افغانستان</title>
 	<meta name="description" content="Storybooks Afghanistan is designed specifically for teachers, parents, and community members. It makes 40 stories from the African Storybook available with text and audio in Dari and Pashto as well as the most widely spoken languages of Afghanistan (with text and audio in many languages).
 ">
 	<link rel="stylesheet" href="/storybooks-afghanistan/css/spectre.min.css">
 	<link rel="stylesheet" href="/storybooks-afghanistan/css/gsn.min.css">
 	<link rel="stylesheet" href="/storybooks-afghanistan/css/fontello.min.css">
-	<link rel="canonical" href="https://global-asp.github.io//storybooks-afghanistan/stories/en/0001/">
+	<link rel="canonical" href="https://global-asp.github.io//storybooks-afghanistan/stories/ps/0001/">
 	<link rel="alternate" type="application/rss+xml" title="داستان برای افغانستان" href="/storybooks-afghanistan">
 	<script src="/storybooks-afghanistan/js/sbc.min.js"></script>
 </head>
@@ -57,30 +57,28 @@
 	</select>
 </div>
 
-        <a class="btn btn-lg" href="/storybooks-afghanistan/stories/en">برگشت به فهرست داستان‌ها</a><br><br>
+        <a class="btn btn-lg" href="/storybooks-afghanistan/stories/ps">برگشت به فهرست داستان‌ها</a><br><br>
 
 <div class="columns" id="text01">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0001/01.jpg"></div>
 	<div class=" column col-7 col-lg-12 col-md-12 col-sm-12">
-		<h1 dir="ltr"><span class="def">A very tall man</span>
-			<span dir="rtl" class="l1">مَردِ خِیلی قَد بُلَند</span>
-			<span dir="rtl" class="l2">یو ډیر لوړ سړی</span>
+		<h1><span class="def">یو ډیر لوړ سړی</span>
+			<span class="l1">مَردِ خِیلی قَد بُلَند</span>
+			<span class="l2">یو ډیر لوړ سړی</span>
 		</h1>
 		<div class="btn-group cover-buttons">
 			<a href="#text02" class="btn btn-lg" title="صفحه بعدی"><i class="icon-arrow-down"></i></a>
-			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="شروع/مکث"><i class="icon-volume-up"></i></button>
-			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/en/0001/mp3/01.mp3"></audio>
-			<button onclick="switchlang('en,prs','prs,ps,en')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان و انگلیسی">prs</button>
-			<button onclick="switchlang('en,ps','prs,ps,en')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو و انگلیسی">ps</button>
+			<button class="btn btn-lg disabled" id="playbutton01" onclick="playpause('01')" title="شروع/مکث"><i class="icon-volume-up"></i></button>
+			<button onclick="switchlang('ps,prs','prs,ps,ps')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان">prs</button>
+			<button onclick="switchlang('ps,ps','prs,ps,ps')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو">ps</button>
 		</div><style>.cover-icon {margin-left:5px;}</style>
 		<h3><span class="tooltip tooltip-left" data-tooltip="نویسنده"><img class="cover-icon cover-icon-text" src="/storybooks-afghanistan/css/pencil.svg" alt="نویسنده"></span> Cornelius Gulere</h3>
 		<h3><span class="tooltip tooltip-left" data-tooltip="نقاش"><img class="cover-icon cover-icon-text" src="/storybooks-afghanistan/css/art.svg" alt="نقاش"></span> Catherine Groenewald</h3>
-		<h3><span class="tooltip tooltip-left" data-tooltip="خواننده"><img class="cover-icon cover-icon-text" src="/storybooks-afghanistan/css/megaphone.svg" alt="خواننده"></span> Darshan Soni</h3>
-		<h3><span class="tooltip tooltip-left" data-tooltip="زبان"><img class="cover-icon cover-icon-text" src="/storybooks-afghanistan/css/language.svg" alt="زبان"></span> <a href="/storybooks-afghanistan/stories/en">انگلیسی</a></h3>
-		<h3><span class="tooltip tooltip-left" data-tooltip="سطح"><img class="cover-icon cover-icon-text" src="/storybooks-afghanistan/css/level.svg" alt="سطح"></span> <a href="/storybooks-afghanistan/stories/en/level2">سطح 2</a></h3>
-		<h3><span class="tooltip tooltip-left" data-tooltip="متن کامل صوتی کتاب"><img class="cover-icon cover-icon-audio" src="/storybooks-afghanistan/css/speaker.svg" alt="متن کامل صوتی کتاب"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/en/0001/en-0001_tall.mp3" type="audio/mpeg"></audio></h3>
-		<h3><span class="tooltip tooltip-left" data-tooltip="سرعت خوانش"><img class="cover-icon cover-icon-text" src="/storybooks-afghanistan/css/speedometer.svg" alt="سرعت خوانش" style="cursor:pointer" onclick="normalspeed()"></span> <span id="slider_tooltip" class="tooltip" data-tooltip="سرعت خوانش: 1×"><input type="range" min="0.5" max="1.5" value="1" step="0.05" id="audio_slider" class="slider" oninput="adjustslider()"></span></h3>
-		<h3><span class="tooltip tooltip-left" data-tooltip="شروع خودبخودی داستان (بیتا)"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="/storybooks-afghanistan/css/play.svg" alt="شروع خودبخودی داستان" style="cursor:pointer" onclick="autoplay()"></span></h3>
+		<h3><span class="tooltip tooltip-left" data-tooltip="مترجم"><img class="cover-icon cover-icon-text" src="/storybooks-afghanistan/css/global.svg" alt="مترجم"></span> Darakhte Danesh</h3>
+		<h3><span class="tooltip tooltip-left" data-tooltip="زبان"><img class="cover-icon cover-icon-text" src="/storybooks-afghanistan/css/language.svg" alt="زبان"></span> <a href="/storybooks-afghanistan/stories/ps">پشتو</a></h3>
+		<h3><span class="tooltip tooltip-left" data-tooltip="سطح"><img class="cover-icon cover-icon-text" src="/storybooks-afghanistan/css/level.svg" alt="سطح"></span> <a href="/storybooks-afghanistan/stories/ps/level2">سطح 2</a></h3>
+		<h3><span class="tooltip tooltip-left" data-tooltip="متن کامل صوتی کتاب"><img class="cover-icon cover-icon-text" src="/storybooks-afghanistan/css/speaker.svg" alt="متن کامل صوتی کتاب"></span> <span class="cover_msg">نسخۀ شنیداری (صوتی) این داستان فعلاً موجود نیست.</span></h3>
+
 	</div>
 </div>
 
@@ -88,8 +86,8 @@
 
         <div id="text02" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0001/02.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3 dir="ltr">
-	His hoe was too short.
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
+	د هغه رمبۍ ډير لنډ وو.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
 	دَستِه یِ بیلِ او بِسیار کوتاه بود.
@@ -101,12 +99,11 @@
 	<div class="btn-group switcher-group">
 		<a href="#text01" class="btn btn-lg" title="صفحه قبلی"><i class="icon-arrow-up"></i></a>
 		<a href="#text03" class="btn btn-lg" title="صفحه بعدی"><i class="icon-arrow-down"></i></a>
-		<audio id="audio02" src="https://globalstorybooks.net/media/audio/en/0001/mp3/02.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton02" onclick="playpause('02')" title="شروع/مکث"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton02" onclick="playpause('02')" title="شروع/مکث"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('en,prs','prs,ps,en')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان و انگلیسی">prs</button>
-		<button onclick="switchlang('en,ps','prs,ps,en')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو و انگلیسی">ps</button>
+		<button onclick="switchlang('ps,prs','prs,ps,ps')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان">prs</button>
+		<button onclick="switchlang('ps,ps','prs,ps,ps')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو">ps</button>
 	</div>
 </div>
 
@@ -115,8 +112,8 @@
 
 <div id="text03" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0001/03.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3 dir="ltr">
-	His doorway was too low.
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
+	د هغه دروازه ډیره ټیټه وه.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
 	دَرِ خانه اَش خِیلی پایین بود.
@@ -128,12 +125,11 @@
 	<div class="btn-group switcher-group">
 		<a href="#text02" class="btn btn-lg" title="صفحه قبلی"><i class="icon-arrow-up"></i></a>
 		<a href="#text04" class="btn btn-lg" title="صفحه بعدی"><i class="icon-arrow-down"></i></a>
-		<audio id="audio03" src="https://globalstorybooks.net/media/audio/en/0001/mp3/03.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton03" onclick="playpause('03')" title="شروع/مکث"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton03" onclick="playpause('03')" title="شروع/مکث"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('en,prs','prs,ps,en')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان و انگلیسی">prs</button>
-		<button onclick="switchlang('en,ps','prs,ps,en')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو و انگلیسی">ps</button>
+		<button onclick="switchlang('ps,prs','prs,ps,ps')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان">prs</button>
+		<button onclick="switchlang('ps,ps','prs,ps,ps')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو">ps</button>
 	</div>
 </div>
 
@@ -142,8 +138,8 @@
 
 <div id="text04" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0001/04.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3 dir="ltr">
-	His bed was too short.
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
+	د هغه تخت ډير لنډ وو.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
 	تَختَش خِیلی کوتاه بود.
@@ -155,12 +151,11 @@
 	<div class="btn-group switcher-group">
 		<a href="#text03" class="btn btn-lg" title="صفحه قبلی"><i class="icon-arrow-up"></i></a>
 		<a href="#text05" class="btn btn-lg" title="صفحه بعدی"><i class="icon-arrow-down"></i></a>
-		<audio id="audio04" src="https://globalstorybooks.net/media/audio/en/0001/mp3/04.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton04" onclick="playpause('04')" title="شروع/مکث"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton04" onclick="playpause('04')" title="شروع/مکث"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('en,prs','prs,ps,en')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان و انگلیسی">prs</button>
-		<button onclick="switchlang('en,ps','prs,ps,en')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو و انگلیسی">ps</button>
+		<button onclick="switchlang('ps,prs','prs,ps,ps')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان">prs</button>
+		<button onclick="switchlang('ps,ps','prs,ps,ps')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو">ps</button>
 	</div>
 </div>
 
@@ -169,8 +164,8 @@
 
 <div id="text05" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0001/05.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3 dir="ltr">
-	His bicycle was too short.
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
+	د هغه بایسیکل ډیر لنډ وو.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
 	دوچَرخه اَش خِیلی کوتاه بود.
@@ -182,12 +177,11 @@
 	<div class="btn-group switcher-group">
 		<a href="#text04" class="btn btn-lg" title="صفحه قبلی"><i class="icon-arrow-up"></i></a>
 		<a href="#text06" class="btn btn-lg" title="صفحه بعدی"><i class="icon-arrow-down"></i></a>
-		<audio id="audio05" src="https://globalstorybooks.net/media/audio/en/0001/mp3/05.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton05" onclick="playpause('05')" title="شروع/مکث"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton05" onclick="playpause('05')" title="شروع/مکث"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('en,prs','prs,ps,en')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان و انگلیسی">prs</button>
-		<button onclick="switchlang('en,ps','prs,ps,en')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو و انگلیسی">ps</button>
+		<button onclick="switchlang('ps,prs','prs,ps,ps')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان">prs</button>
+		<button onclick="switchlang('ps,ps','prs,ps,ps')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو">ps</button>
 	</div>
 </div>
 
@@ -196,8 +190,8 @@
 
 <div id="text06" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0001/06.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3 dir="ltr">
-	This man was too tall!
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
+	هغه سړۍ ډير لوړ وو.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
 	این مَرد خِیلی بُلَند قَد بود!
@@ -209,12 +203,11 @@
 	<div class="btn-group switcher-group">
 		<a href="#text05" class="btn btn-lg" title="صفحه قبلی"><i class="icon-arrow-up"></i></a>
 		<a href="#text07" class="btn btn-lg" title="صفحه بعدی"><i class="icon-arrow-down"></i></a>
-		<audio id="audio06" src="https://globalstorybooks.net/media/audio/en/0001/mp3/06.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton06" onclick="playpause('06')" title="شروع/مکث"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton06" onclick="playpause('06')" title="شروع/مکث"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('en,prs','prs,ps,en')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان و انگلیسی">prs</button>
-		<button onclick="switchlang('en,ps','prs,ps,en')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو و انگلیسی">ps</button>
+		<button onclick="switchlang('ps,prs','prs,ps,ps')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان">prs</button>
+		<button onclick="switchlang('ps,ps','prs,ps,ps')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو">ps</button>
 	</div>
 </div>
 
@@ -223,8 +216,8 @@
 
 <div id="text07" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0001/07.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3 dir="ltr">
-	He made a very long hoe handle.
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
+	هغه خپل رمبي ته اوږد لاستۍ جوړ کړ.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
 	او یِک دَستِه یِ بیلِ خِیلی بُلَند بَرایِ خودَش دُرُست کَرد.
@@ -236,12 +229,11 @@
 	<div class="btn-group switcher-group">
 		<a href="#text06" class="btn btn-lg" title="صفحه قبلی"><i class="icon-arrow-up"></i></a>
 		<a href="#text08" class="btn btn-lg" title="صفحه بعدی"><i class="icon-arrow-down"></i></a>
-		<audio id="audio07" src="https://globalstorybooks.net/media/audio/en/0001/mp3/07.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton07" onclick="playpause('07')" title="شروع/مکث"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton07" onclick="playpause('07')" title="شروع/مکث"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('en,prs','prs,ps,en')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان و انگلیسی">prs</button>
-		<button onclick="switchlang('en,ps','prs,ps,en')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو و انگلیسی">ps</button>
+		<button onclick="switchlang('ps,prs','prs,ps,ps')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان">prs</button>
+		<button onclick="switchlang('ps,ps','prs,ps,ps')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو">ps</button>
 	</div>
 </div>
 
@@ -250,8 +242,8 @@
 
 <div id="text08" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0001/08.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3 dir="ltr">
-	He made very high door frames.
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
+	هغه خپله دروازه لوړه کړه.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
 	او یِک چَهارچوبِ خِیلی بُلَندِ دَرِساخت.
@@ -263,12 +255,11 @@
 	<div class="btn-group switcher-group">
 		<a href="#text07" class="btn btn-lg" title="صفحه قبلی"><i class="icon-arrow-up"></i></a>
 		<a href="#text09" class="btn btn-lg" title="صفحه بعدی"><i class="icon-arrow-down"></i></a>
-		<audio id="audio08" src="https://globalstorybooks.net/media/audio/en/0001/mp3/08.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton08" onclick="playpause('08')" title="شروع/مکث"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton08" onclick="playpause('08')" title="شروع/مکث"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('en,prs','prs,ps,en')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان و انگلیسی">prs</button>
-		<button onclick="switchlang('en,ps','prs,ps,en')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو و انگلیسی">ps</button>
+		<button onclick="switchlang('ps,prs','prs,ps,ps')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان">prs</button>
+		<button onclick="switchlang('ps,ps','prs,ps,ps')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو">ps</button>
 	</div>
 </div>
 
@@ -277,8 +268,8 @@
 
 <div id="text09" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0001/09.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3 dir="ltr">
-	He made a very long bed.
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
+	هغه خپل تخت اوږد کړ.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
 	او یِک تَختِ خِیلی بُلَند ساخت.
@@ -290,12 +281,11 @@
 	<div class="btn-group switcher-group">
 		<a href="#text08" class="btn btn-lg" title="صفحه قبلی"><i class="icon-arrow-up"></i></a>
 		<a href="#text10" class="btn btn-lg" title="صفحه بعدی"><i class="icon-arrow-down"></i></a>
-		<audio id="audio09" src="https://globalstorybooks.net/media/audio/en/0001/mp3/09.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton09" onclick="playpause('09')" title="شروع/مکث"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton09" onclick="playpause('09')" title="شروع/مکث"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('en,prs','prs,ps,en')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان و انگلیسی">prs</button>
-		<button onclick="switchlang('en,ps','prs,ps,en')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو و انگلیسی">ps</button>
+		<button onclick="switchlang('ps,prs','prs,ps,ps')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان">prs</button>
+		<button onclick="switchlang('ps,ps','prs,ps,ps')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو">ps</button>
 	</div>
 </div>
 
@@ -304,8 +294,8 @@
 
 <div id="text10" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0001/10.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3 dir="ltr">
-	He bought a very high bicycle.
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
+	هغه یو جیګ بایسیکل واخیست.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
 	یِک دوچَرخِه ی خِیلی بُلَند خَرید.
@@ -317,12 +307,11 @@
 	<div class="btn-group switcher-group">
 		<a href="#text09" class="btn btn-lg" title="صفحه قبلی"><i class="icon-arrow-up"></i></a>
 		<a href="#text11" class="btn btn-lg" title="صفحه بعدی"><i class="icon-arrow-down"></i></a>
-		<audio id="audio10" src="https://globalstorybooks.net/media/audio/en/0001/mp3/10.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton10" onclick="playpause('10')" title="شروع/مکث"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton10" onclick="playpause('10')" title="شروع/مکث"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('en,prs','prs,ps,en')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان و انگلیسی">prs</button>
-		<button onclick="switchlang('en,ps','prs,ps,en')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو و انگلیسی">ps</button>
+		<button onclick="switchlang('ps,prs','prs,ps,ps')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان">prs</button>
+		<button onclick="switchlang('ps,ps','prs,ps,ps')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو">ps</button>
 	</div>
 </div>
 
@@ -331,8 +320,8 @@
 
 <div id="text11" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0001/11.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3 dir="ltr">
-	He sat on a very high chair. He ate with a very long fork.
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
+	هغه په یوې لوړې چوکۍ کښیناست. هغه په یوې اوږدې پنجې ډوډۍ وخوړه.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
 	او روی یِک صَندَلیِ خِیلی بُلَند نِشَست. با چَنگال خِیلی بُلَند غَذا خورد.
@@ -344,12 +333,11 @@
 	<div class="btn-group switcher-group">
 		<a href="#text10" class="btn btn-lg" title="صفحه قبلی"><i class="icon-arrow-up"></i></a>
 		<a href="#text12" class="btn btn-lg" title="صفحه بعدی"><i class="icon-arrow-down"></i></a>
-		<audio id="audio11" src="https://globalstorybooks.net/media/audio/en/0001/mp3/11.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton11" onclick="playpause('11')" title="شروع/مکث"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton11" onclick="playpause('11')" title="شروع/مکث"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('en,prs','prs,ps,en')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان و انگلیسی">prs</button>
-		<button onclick="switchlang('en,ps','prs,ps,en')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو و انگلیسی">ps</button>
+		<button onclick="switchlang('ps,prs','prs,ps,ps')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان">prs</button>
+		<button onclick="switchlang('ps,ps','prs,ps,ps')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو">ps</button>
 	</div>
 </div>
 
@@ -358,8 +346,8 @@
 
 <div id="text12" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0001/12.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3 dir="ltr">
-	He left his house and lived in a big forest. He lived for many years.
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
+	هغه خپل کوړ پریښود او په یوه لوۍ ځنګله کې ووسید. او هلته تر ډېر کلونو یې ژوند وکړ.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
 	او خانه اَش را تَرک کَرد وَ در یِک جَنگَلِ بُزرگ زِندگی کَرد. او سالهایِ زیادی زِندگی کرد.
@@ -371,12 +359,11 @@
 	<div class="btn-group switcher-group">
 		<a href="#text11" class="btn btn-lg" title="صفحه قبلی"><i class="icon-arrow-up"></i></a>
 		<a href="#colophon" class="btn btn-lg" title="اعتباردهی داستان"><i class="icon-arrow-down"></i></a>
-		<audio id="audio12" src="https://globalstorybooks.net/media/audio/en/0001/mp3/12.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton12" onclick="playpause('12')" title="شروع/مکث"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton12" onclick="playpause('12')" title="شروع/مکث"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('en,prs','prs,ps,en')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان و انگلیسی">prs</button>
-		<button onclick="switchlang('en,ps','prs,ps,en')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو و انگلیسی">ps</button>
+		<button onclick="switchlang('ps,prs','prs,ps,ps')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان">prs</button>
+		<button onclick="switchlang('ps,ps','prs,ps,ps')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو">ps</button>
 	</div>
 </div>
 
@@ -388,31 +375,21 @@
 	<div class="column col-7 col-lg-12 col-md-12 col-sm-12">
 		<h5><span class="colophon-heading">نویسنده:</span> Cornelius Gulere</h5>
 		<h5><span class="colophon-heading">نقاش:</span> Catherine Groenewald</h5>
-		<h5><span class="colophon-heading">خواننده:</span> Darshan Soni</h5>
-		<h5><span class="colophon-heading">زبان:</span> <a href="/storybooks-afghanistan/stories/en">انگلیسی</a></h5>
-		<h5><span class="colophon-heading">سطح:</span> <a href="/storybooks-afghanistan/stories/en/level2">سطح 2</a></h5>
+		<h5><span class="colophon-heading">مترجم:</span> Darakhte Danesh</h5>
+		<h5><span class="colophon-heading">زبان:</span> <a href="/storybooks-afghanistan/stories/ps">پشتو</a></h5>
+		<h5><span class="colophon-heading">سطح:</span> <a href="/storybooks-afghanistan/stories/ps/level2">سطح 2</a></h5>
 		<h5><span class="colophon-heading">منبع:</span> <a href="https://africanstorybook.org/reader.php?id=918" target="_blank">A very tall man</a> از <a href="https://africanstorybook.org/">داستان افریقا</a></h5>
 
 		<div><a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.fa" target="_blank"><img alt="جواز کریتو کامینز" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />تحت مجوز <a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.fa" target="_blank">کریتو کامینز اعتباردهی 3.0 تبدیل نشده</a> کریتز کامنز به نشر رسید.</div>
 
 	</div>
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12">
-		<h5>بیشتر بخوانید <a href="/storybooks-afghanistan/stories/en/level2">سطح 2</a> داستان ها:</h5>
-			<label class="chip"><a href="/storybooks-afghanistan/stories/en/0337/">Children of wax</a></label>
-			<label class="chip"><a href="/storybooks-afghanistan/stories/en/0111/">Why hippos have no hair</a></label>
-			<label class="chip"><a href="/storybooks-afghanistan/stories/en/0095/">Zama is great!</a></label>
-			<label class="chip"><a href="/storybooks-afghanistan/stories/en/0089/">Khalai talks to plants</a></label>
-			<label class="chip"><a href="/storybooks-afghanistan/stories/en/0027/">Decision</a></label>
-			<label class="chip"><a href="/storybooks-afghanistan/stories/en/0296/">Tom the banana seller</a></label>
-			<label class="chip"><a href="/storybooks-afghanistan/stories/en/0210/">Tingi and the Cows</a></label>
-			<label class="chip"><a href="/storybooks-afghanistan/stories/en/0342/">Punishment</a></label>
-			<label class="chip"><a href="/storybooks-afghanistan/stories/en/0004/">Goat, Dog, and Cow</a></label>
-			<label class="chip"><a href="/storybooks-afghanistan/stories/en/0234/">Andiswa Soccer Star</a></label>
+		<h5>بیشتر بخوانید <a href="/storybooks-afghanistan/stories/ps/level2">سطح 2</a> داستان ها:</h5>
 	</div>
 </div>
 <div>
 <h5>گزینه‌ها</h5>
-	<a class="btn btn-lg" href="/storybooks-afghanistan/stories/en" class="button">برگشت به فهرست داستان‌ها</a> <span class="tooltip tooltip-top" data-tooltip="بارگذاری پی دی اف برای این داستان فعلاً ممکن نیست."><a class="btn btn-lg disabled">بارگذاری پی دی اف</a></span>
+	<a class="btn btn-lg" href="/storybooks-afghanistan/stories/ps" class="button">برگشت به فهرست داستان‌ها</a> <span class="tooltip tooltip-top" data-tooltip="بارگذاری پی دی اف برای این داستان فعلاً ممکن نیست."><a class="btn btn-lg disabled">بارگذاری پی دی اف</a></span>
 <br><br>
 </div>
 
