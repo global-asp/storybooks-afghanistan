@@ -12,13 +12,13 @@
 	<link rel="shortcut icon" href="/storybooks-afghanistan/favicon.ico?v=4">
 	<meta name="msapplication-TileColor" content="#00aba9">
 	<meta name="theme-color" content="#ffffff">
-	<title>Grandma’s bananas - داستان برای افغانستان</title>
+	<title>د ادې کېلې - داستان برای افغانستان</title>
 	<meta name="description" content="Storybooks Afghanistan is designed specifically for teachers, parents, and community members. It makes 40 stories from the African Storybook available with text and audio in Dari and Pashto as well as the most widely spoken languages of Afghanistan (with text and audio in many languages).
 ">
 	<link rel="stylesheet" href="/storybooks-afghanistan/css/spectre.min.css">
-	<link rel="stylesheet" href="/storybooks-afghanistan/css/gsn.min.css">
+	<link rel="stylesheet" href="/storybooks-afghanistan/css/gsn-ar.min.css">
 	<link rel="stylesheet" href="/storybooks-afghanistan/css/fontello.min.css">
-	<link rel="canonical" href="https://global-asp.github.io//storybooks-afghanistan/stories/en/0294/">
+	<link rel="canonical" href="https://global-asp.github.io//storybooks-afghanistan/stories/ps/0294/">
 	<link rel="alternate" type="application/rss+xml" title="داستان برای افغانستان" href="/storybooks-afghanistan">
 	<script src="/storybooks-afghanistan/js/sbc.min.js"></script>
 </head>
@@ -57,30 +57,28 @@
 	</select>
 </div>
 
-        <a class="btn btn-lg" href="/storybooks-afghanistan/stories/en">برگشت به فهرست داستان‌ها</a><br><br>
+        <a class="btn btn-lg" href="/storybooks-afghanistan/stories/ps">برگشت به فهرست داستان‌ها</a><br><br>
 
 <div class="columns" id="text01">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0294/01.jpg"></div>
 	<div class=" column col-7 col-lg-12 col-md-12 col-sm-12">
-		<h1 dir="ltr"><span class="def">Grandma’s bananas</span>
-			<span dir="rtl" class="l1">کیله‌های مادربزرگ</span>
-			<span dir="rtl" class="l2">د ادې کېلې</span>
+		<h1><span class="def">د ادې کېلې</span>
+			<span class="l1">کیله‌های مادربزرگ</span>
+			<span class="l2">د ادې کېلې</span>
 		</h1>
 		<div class="btn-group cover-buttons">
 			<a href="#text02" class="btn btn-lg" title="صفحه بعدی"><i class="icon-arrow-down"></i></a>
-			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="شروع/مکث"><i class="icon-volume-up"></i></button>
-			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/en/0294/mp3/01.mp3"></audio>
-			<button onclick="switchlang('en,prs','prs,ps,en')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان و انگلیسی">prs</button>
-			<button onclick="switchlang('en,ps','prs,ps,en')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو و انگلیسی">ps</button>
+			<button class="btn btn-lg disabled" id="playbutton01" onclick="playpause('01')" title="شروع/مکث"><i class="icon-volume-up"></i></button>
+			<button onclick="switchlang('ps,prs','prs,ps,ps')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان">prs</button>
+			<button onclick="switchlang('ps,ps','prs,ps,ps')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو">ps</button>
 		</div><style>.cover-icon {margin-left:5px;}</style>
 		<h3><span class="tooltip tooltip-left" data-tooltip="نویسنده"><img class="cover-icon cover-icon-text" src="/storybooks-afghanistan/css/pencil.svg" alt="نویسنده"></span> Ursula Nafula</h3>
 		<h3><span class="tooltip tooltip-left" data-tooltip="نقاش"><img class="cover-icon cover-icon-text" src="/storybooks-afghanistan/css/art.svg" alt="نقاش"></span> Catherine Groenewald</h3>
-		<h3><span class="tooltip tooltip-left" data-tooltip="خواننده"><img class="cover-icon cover-icon-text" src="/storybooks-afghanistan/css/megaphone.svg" alt="خواننده"></span> Darshan Soni</h3>
-		<h3><span class="tooltip tooltip-left" data-tooltip="زبان"><img class="cover-icon cover-icon-text" src="/storybooks-afghanistan/css/language.svg" alt="زبان"></span> <a href="/storybooks-afghanistan/stories/en">انگلیسی</a></h3>
-		<h3><span class="tooltip tooltip-left" data-tooltip="سطح"><img class="cover-icon cover-icon-text" src="/storybooks-afghanistan/css/level.svg" alt="سطح"></span> <a href="/storybooks-afghanistan/stories/en/level4">سطح 4</a></h3>
-		<h3><span class="tooltip tooltip-left" data-tooltip="متن کامل صوتی کتاب"><img class="cover-icon cover-icon-audio" src="/storybooks-afghanistan/css/speaker.svg" alt="متن کامل صوتی کتاب"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/en/0294/en-0294_grandma.mp3" type="audio/mpeg"></audio></h3>
-		<h3><span class="tooltip tooltip-left" data-tooltip="سرعت خوانش"><img class="cover-icon cover-icon-text" src="/storybooks-afghanistan/css/speedometer.svg" alt="سرعت خوانش" style="cursor:pointer" onclick="normalspeed()"></span> <span id="slider_tooltip" class="tooltip" data-tooltip="سرعت خوانش: 1×"><input type="range" min="0.5" max="1.5" value="1" step="0.05" id="audio_slider" class="slider" oninput="adjustslider()"></span></h3>
-		<h3><span class="tooltip tooltip-left" data-tooltip="شروع خودبخودی داستان (بیتا)"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="/storybooks-afghanistan/css/play.svg" alt="شروع خودبخودی داستان" style="cursor:pointer" onclick="autoplay()"></span></h3>
+		<h3><span class="tooltip tooltip-left" data-tooltip="مترجم"><img class="cover-icon cover-icon-text" src="/storybooks-afghanistan/css/global.svg" alt="مترجم"></span> Zahidullah Abid</h3>
+		<h3><span class="tooltip tooltip-left" data-tooltip="زبان"><img class="cover-icon cover-icon-text" src="/storybooks-afghanistan/css/language.svg" alt="زبان"></span> <a href="/storybooks-afghanistan/stories/ps">پشتو</a></h3>
+		<h3><span class="tooltip tooltip-left" data-tooltip="سطح"><img class="cover-icon cover-icon-text" src="/storybooks-afghanistan/css/level.svg" alt="سطح"></span> <a href="/storybooks-afghanistan/stories/ps/level4">سطح 4</a></h3>
+		<h3><span class="tooltip tooltip-left" data-tooltip="متن کامل صوتی کتاب"><img class="cover-icon cover-icon-text" src="/storybooks-afghanistan/css/speaker.svg" alt="متن کامل صوتی کتاب"></span> <span class="cover_msg">نسخۀ شنیداری (صوتی) این داستان فعلاً موجود نیست.</span></h3>
+
 	</div>
 </div>
 
@@ -88,14 +86,8 @@
 
         <div id="text02" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0294/02.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3 dir="ltr">
-	Grandma’s garden was wonderful, full of sorghum, millet, and cassava.
-
-But best of all were the bananas.
-
-Although Grandma had many grandchildren, I secretly knew that I was her favourite. She invited me often to her house. She also told me little secrets.
-
-But there was one secret she did not share with me: where she ripened bananas.
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
+	د ادې باغ ډېر په زړه پورې ؤ. نوموړی باغ د باجرو، جوارو او کاساوا څخه ډک و. خو له هر څه یې کیلې ښې وې. که څه هم زما د ادې ډیر لمسیان ؤ، خو زه ورته په پټه په ټولو کې ګرانه وم. ماته به یې ډېری وخت خپل کور ته بلنه راکوله. ماته به یې ځینې رازونه هم وویل. خو یو راز ؤ چې له ما سره یې شریک نه کړ، هغه راز دا ؤ چې کوم ځای کې هغه کیلې پخوي.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
 	باغ مادربزرگ خیلی زیبا بود، پر ازخوشه‌های جواری، ارزن و کچالوی شیرین؛ ولی بهتراز همه کیله‌ها بودند. اگرچه مادربزرگ نواسه‌های زیادی داشت؛ من مخفیانه متوجه شدم که من نواسه‌ی مورد علاقه‌ی مادربزرگ هستم. او اغلب مرا به خانه‌اش دعوت می‌کرد. او همچنین رازهای مختصری برای من می‌گفت. ولی یک رازی بود که مادربزرگ آن را با من درمیان نگذاشته بود: اینکه او کیله‌های رسیده را کجا می‌گذاشت؟
@@ -107,12 +99,11 @@ But there was one secret she did not share with me: where she ripened bananas.
 	<div class="btn-group switcher-group">
 		<a href="#text01" class="btn btn-lg" title="صفحه قبلی"><i class="icon-arrow-up"></i></a>
 		<a href="#text03" class="btn btn-lg" title="صفحه بعدی"><i class="icon-arrow-down"></i></a>
-		<audio id="audio02" onended="resetbutton('02')" src="https://globalstorybooks.net/media/audio/en/0294/mp3/02.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton02" onclick="playpause('02')" title="شروع/مکث"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton02" onclick="playpause('02')" title="شروع/مکث"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('en,prs','prs,ps,en')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان و انگلیسی">prs</button>
-		<button onclick="switchlang('en,ps','prs,ps,en')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو و انگلیسی">ps</button>
+		<button onclick="switchlang('ps,prs','prs,ps,ps')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان">prs</button>
+		<button onclick="switchlang('ps,ps','prs,ps,ps')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو">ps</button>
 	</div>
 </div>
 
@@ -121,10 +112,8 @@ But there was one secret she did not share with me: where she ripened bananas.
 
 <div id="text03" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0294/03.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3 dir="ltr">
-	One day I saw a big straw basket placed in the sun outside Grandma’s house. When I asked what it was for, the only answer I got was, “It’s my magic basket.”
-
-Next to the basket, there were several banana leaves that Grandma turned from time to time. I was curious. “What are the leaves for, Grandma?” I asked. The only answer I got was, “They are my magic leaves.”
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
+	یوه ورځ مې د انا له کوره بېرون، لمر ته د بوسو یوه لویه ټوکرۍ ولیده. له نیا مې وپوښتل چې دا ټوکرۍ څه لپاره ده، نیا مې وویل، “دا زما د جادویي ټوکرۍ ده.” د ټوکرۍ سره خوا کې د کیلې د ونې یو څو پاڼې وې، چې انا به وخت په وخت بدلولې. زه د نیا دې کار ته متوجه وم. له نیا مې وپوښتل “دا پاڼې د څه لپاره دي، ؟” نیا مې په ځواب کې راته وویل، “دا زما جادویي پاڼې دي.”
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
 	یک روز من یک سبد حصیری بزرگ جلوی نور آفتاب بیرون از خانه‌ی مادربزرگ دیدم. وقتی که پرسیدم این سبد برای چیست، تنها جوابی که گرفتم این بود که، “این سبد جادویی من است.” در کنار سبد، چندین عدد برگ کیله بود که مادربزرگ لحظه به لحظه آن‌ها را جابجا می‌کرد. من کنجکاو بودم. پرسیدم، “برگ‌ها برای چیست مادربزرگ؟” تنها جوابی که گرفتم این بود که، “آن‌ها برگ‌های جادویی من هستند.”
@@ -136,12 +125,11 @@ Next to the basket, there were several banana leaves that Grandma turned from ti
 	<div class="btn-group switcher-group">
 		<a href="#text02" class="btn btn-lg" title="صفحه قبلی"><i class="icon-arrow-up"></i></a>
 		<a href="#text04" class="btn btn-lg" title="صفحه بعدی"><i class="icon-arrow-down"></i></a>
-		<audio id="audio03" onended="resetbutton('03')" src="https://globalstorybooks.net/media/audio/en/0294/mp3/03.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton03" onclick="playpause('03')" title="شروع/مکث"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton03" onclick="playpause('03')" title="شروع/مکث"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('en,prs','prs,ps,en')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان و انگلیسی">prs</button>
-		<button onclick="switchlang('en,ps','prs,ps,en')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو و انگلیسی">ps</button>
+		<button onclick="switchlang('ps,prs','prs,ps,ps')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان">prs</button>
+		<button onclick="switchlang('ps,ps','prs,ps,ps')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو">ps</button>
 	</div>
 </div>
 
@@ -150,12 +138,8 @@ Next to the basket, there were several banana leaves that Grandma turned from ti
 
 <div id="text04" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0294/04.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3 dir="ltr">
-	It was so interesting watching Grandma, the bananas, the banana leaves and the big straw basket. But Grandma sent me off to my mother on an errand.
-
-“Grandma, please, let me watch as you prepare…”
-
-“Don’t be stubborn, child, do as you are told,” she insisted. I took off running.
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
+	د نیا، کیلو، د کیلې د پاڼو او او د بوسو غټې ټوکرۍ لیدل ډیر خوند راکولو. خو نيا مې زه په يوه کار پسې مور ته ولېږلم. ما مې نیا ته په ټینګار سره وویل”نیا جانې، اجازه راکړئ چې وګورم چې تاسو څه او څنګه چمتو کوئ.” نیا مې راته وویل: “مه شله کېږه کوچنۍ!، څه مې چې درته وویل، هماغه وکه.” زه هم لاړم.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
 	تماشای مادربزرگ، آن کیله‌ها، برگ‌های کیله وسبد بزرگ حصیری، خیلی جالب بود. ولی مادربزرگ مرا برای انجام دادن کاری به سمت مادرم فرستاده بود. من اصرار کردم، “مادربزرگ، لطفا اجازه بده همین طور که این‌ها را آماده می‌کنی تو را تماشا کنم”. “بچه جان لجبازی نکن، کاری که به تو گفته شده را انجام بده.” من فرار کردم.
@@ -167,12 +151,11 @@ Next to the basket, there were several banana leaves that Grandma turned from ti
 	<div class="btn-group switcher-group">
 		<a href="#text03" class="btn btn-lg" title="صفحه قبلی"><i class="icon-arrow-up"></i></a>
 		<a href="#text05" class="btn btn-lg" title="صفحه بعدی"><i class="icon-arrow-down"></i></a>
-		<audio id="audio04" onended="resetbutton('04')" src="https://globalstorybooks.net/media/audio/en/0294/mp3/04.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton04" onclick="playpause('04')" title="شروع/مکث"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton04" onclick="playpause('04')" title="شروع/مکث"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('en,prs','prs,ps,en')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان و انگلیسی">prs</button>
-		<button onclick="switchlang('en,ps','prs,ps,en')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو و انگلیسی">ps</button>
+		<button onclick="switchlang('ps,prs','prs,ps,ps')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان">prs</button>
+		<button onclick="switchlang('ps,ps','prs,ps,ps')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو">ps</button>
 	</div>
 </div>
 
@@ -181,12 +164,8 @@ Next to the basket, there were several banana leaves that Grandma turned from ti
 
 <div id="text05" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0294/05.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3 dir="ltr">
-	When I returned, Grandma was sitting outside but with neither the basket nor the bananas.
-
-“Grandma, where is the basket, where are all the bananas, and where…”
-
-But the only answer I got was, “They are in my magic place.” It was so disappointing!
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
+	کله چې بیرته راستنه شوم، نیا مې د کوره بهر ناسته وه، نه هغه ټوکرۍ وه او نه هم کیلې. ما مې له نیا وپوښتل”ادې جانې، هغه ټوکرۍ څه شوه، کیلې چېرته دي، چېرته …” خو بیا هم یوازینی ځواب چې ما ترلاسه کړ هغه دا ؤ، “هغه ټول زما په جادویي ځای کې دي.” دا ډېره مایوسه کوونکې وه!
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
 	وقتی که برگشتم، مادربزرگ بیرون نشسته بود، ولی نه خبری از سبد بود و نه کیله‌ها. “مادربزرگ سبد کجاست، آن همه کیله‌ها کجا هستند، و کجاست…؟” ولی تنها جوابی که گرفتم این بود، “آن‌ها دریک جای جادویی هستند.” جواب او خیلی ناامیدکننده بود.
@@ -198,12 +177,11 @@ But the only answer I got was, “They are in my magic place.” It was so disap
 	<div class="btn-group switcher-group">
 		<a href="#text04" class="btn btn-lg" title="صفحه قبلی"><i class="icon-arrow-up"></i></a>
 		<a href="#text06" class="btn btn-lg" title="صفحه بعدی"><i class="icon-arrow-down"></i></a>
-		<audio id="audio05" onended="resetbutton('05')" src="https://globalstorybooks.net/media/audio/en/0294/mp3/05.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton05" onclick="playpause('05')" title="شروع/مکث"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton05" onclick="playpause('05')" title="شروع/مکث"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('en,prs','prs,ps,en')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان و انگلیسی">prs</button>
-		<button onclick="switchlang('en,ps','prs,ps,en')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو و انگلیسی">ps</button>
+		<button onclick="switchlang('ps,prs','prs,ps,ps')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان">prs</button>
+		<button onclick="switchlang('ps,ps','prs,ps,ps')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو">ps</button>
 	</div>
 </div>
 
@@ -212,10 +190,8 @@ But the only answer I got was, “They are in my magic place.” It was so disap
 
 <div id="text06" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0294/06.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3 dir="ltr">
-	Two days later, Grandma sent me to fetch her walking stick from her bedroom.
-
-As soon as I opened the door, I was welcomed by the strong smell of ripening bananas. In the inner room was grandma’s big magic straw basket. It was well hidden by an old blanket. I lifted it and sniffed that glorious smell.
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
+	دوه ورځې وروسته، نیا مې زه د هغې د خوب کوټې ته د هغې په امسا پسې ولېږلم. کله چې مې دروازه خلاصه کړه، د پخو کیلو بوی مې حس کړ. د کوټې دننه د انا لویه جادويي د بوسو ټوکرۍ ایښه وه. او یوه زړړه کمپله ترې راچاپېره وه. ما هغه کمپله ترې پورته کړه او یو ډېر ښکلی بوی مې حس کړ.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
 	دو روز بعد، مادربزرگ مرا فرستاد تا عصایش را از اتاق خواب برایش بیاورم. به محض این که در را باز کردم، بوی شدید کیله‌های رسیده به مشامم خورد. در اتاق داخلی، سبد حصیری جادویی بزرگ مادر بزرگ قرار داشت. سبد، خیلی خوب با یک پتوی قدیمی پوشیده شده بود. من پتو را برداشتم وآن عطر دلنشین را بوییدم.
@@ -227,12 +203,11 @@ As soon as I opened the door, I was welcomed by the strong smell of ripening ban
 	<div class="btn-group switcher-group">
 		<a href="#text05" class="btn btn-lg" title="صفحه قبلی"><i class="icon-arrow-up"></i></a>
 		<a href="#text07" class="btn btn-lg" title="صفحه بعدی"><i class="icon-arrow-down"></i></a>
-		<audio id="audio06" onended="resetbutton('06')" src="https://globalstorybooks.net/media/audio/en/0294/mp3/06.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton06" onclick="playpause('06')" title="شروع/مکث"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton06" onclick="playpause('06')" title="شروع/مکث"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('en,prs','prs,ps,en')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان و انگلیسی">prs</button>
-		<button onclick="switchlang('en,ps','prs,ps,en')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو و انگلیسی">ps</button>
+		<button onclick="switchlang('ps,prs','prs,ps,ps')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان">prs</button>
+		<button onclick="switchlang('ps,ps','prs,ps,ps')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو">ps</button>
 	</div>
 </div>
 
@@ -241,12 +216,8 @@ As soon as I opened the door, I was welcomed by the strong smell of ripening ban
 
 <div id="text07" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0294/07.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3 dir="ltr">
-	Grandma’s voice startled me when she called, “What are you doing? Hurry up and bring me the stick.”
-
-I hurried out with her walking stick. “What are you smiling about?” Grandma asked.
-
-Her question made me realise that I was still smiling at the discovery of her magic place.
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
+	د نيا غږ مې ډېر وډار کړم، کله یې چې غږ راوکړ: “څه کوې؟ ژر شه او هله زما امسا راوړه.” زه د هغې د امسا سره په چټکۍ له کوټې بهر شوم. نیا مې وپوښتل ” ته ولې خاندې ؟” د هغې پوښتنې ما ته دا احساس راکړ چې زه لاهم د هغې د جادویي ځای په کشف پورې خاندم
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
 	با صدای مادربزرگ از جا پریدم وقتی که گفت، “تو چه کار می‌کنی؟ عجله کن و عصایم را برایم بیاور.” من با عجله با عصای مادربزرگ به بیرون رفتم. مادربزرگ پرسید، “تو به چی داری می‌خندی؟” سوال مادربزرگ به من فهماند که من هنوز به خاطر کشف مکان جادویی مادربزرگ لبخند بر لب دارم.
@@ -258,12 +229,11 @@ Her question made me realise that I was still smiling at the discovery of her ma
 	<div class="btn-group switcher-group">
 		<a href="#text06" class="btn btn-lg" title="صفحه قبلی"><i class="icon-arrow-up"></i></a>
 		<a href="#text08" class="btn btn-lg" title="صفحه بعدی"><i class="icon-arrow-down"></i></a>
-		<audio id="audio07" onended="resetbutton('07')" src="https://globalstorybooks.net/media/audio/en/0294/mp3/07.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton07" onclick="playpause('07')" title="شروع/مکث"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton07" onclick="playpause('07')" title="شروع/مکث"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('en,prs','prs,ps,en')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان و انگلیسی">prs</button>
-		<button onclick="switchlang('en,ps','prs,ps,en')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو و انگلیسی">ps</button>
+		<button onclick="switchlang('ps,prs','prs,ps,ps')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان">prs</button>
+		<button onclick="switchlang('ps,ps','prs,ps,ps')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو">ps</button>
 	</div>
 </div>
 
@@ -272,10 +242,8 @@ Her question made me realise that I was still smiling at the discovery of her ma
 
 <div id="text08" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0294/08.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3 dir="ltr">
-	The following day when grandma came to visit my mother, I rushed to her house to check the bananas once more.
-
-There was a bunch of very ripe ones. I picked one and hid it in my dress. After covering the basket again, I went behind the house and quickly ate it. It was the sweetest banana I had ever tasted.
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
+	بله ورځ مې چې نیا زما د مور لیدو ته راغله، زه د هغې کور په منډه منډه ولاړم ، تر څو زه یو ځل بیا هغه کیلې وګورم. د ډيرو پخو شوو کېلو یوه غونچه مې پکې ولیدله. ما هم ترې یوه کیله واخیسته او د جامو لاندې مې پټه کړه. د ټوکرۍ د پوښلو وروسته، زه د کور شاته لاړم او په چټکۍ سره مې کېله وخوړه. دا ترټولو خوږه کیله وه، ما تر دې دمه د دې په څېر خوندوره کېله نه خوړلې.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
 	روز بعد وقتی که مادربزرگ به دیدن مادرم آمد، من با عجله به سمت خانه‌ی او رفتم تا یکبار دیگر کیله‌ها را کنترول کنم. یک دسته کیله خیلی رسیده آنجا بود. من یکی برداشتم ودر لباسم پنهانش کردم. بعد از اینکه دوباره سبد را پوشاندم، به پشت خانه رفتم و کیله را تیز تیز خوردم. این شیرین ترین کیله‌ای بود که تا حالا خورده بودم.
@@ -287,12 +255,11 @@ There was a bunch of very ripe ones. I picked one and hid it in my dress. After 
 	<div class="btn-group switcher-group">
 		<a href="#text07" class="btn btn-lg" title="صفحه قبلی"><i class="icon-arrow-up"></i></a>
 		<a href="#text09" class="btn btn-lg" title="صفحه بعدی"><i class="icon-arrow-down"></i></a>
-		<audio id="audio08" onended="resetbutton('08')" src="https://globalstorybooks.net/media/audio/en/0294/mp3/08.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton08" onclick="playpause('08')" title="شروع/مکث"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton08" onclick="playpause('08')" title="شروع/مکث"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('en,prs','prs,ps,en')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان و انگلیسی">prs</button>
-		<button onclick="switchlang('en,ps','prs,ps,en')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو و انگلیسی">ps</button>
+		<button onclick="switchlang('ps,prs','prs,ps,ps')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان">prs</button>
+		<button onclick="switchlang('ps,ps','prs,ps,ps')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو">ps</button>
 	</div>
 </div>
 
@@ -301,12 +268,8 @@ There was a bunch of very ripe ones. I picked one and hid it in my dress. After 
 
 <div id="text09" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0294/09.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3 dir="ltr">
-	The following day, when grandma was in the garden picking vegetables, I sneaked in and peered at the bananas.
-
-Nearly all were ripe. I couldn’t help taking a bunch of four.
-
-As I tiptoed towards the door, I heard grandma coughing outside. I just managed to hide the bananas under my dress and walked past her.
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
+	بله ورځ، کله چې مې نيا په باغ کې سبزي راټولوله، زه په پټه کوټې دننه شوم او یو ځل بیا کيلې وکتلې. تقریبآ ټولې کېلې پخې شوې وې. خو ما نشو کولی چې د څلورو پخو شوو کېلو غونچه پټه کړم. کل مې چې د دروازې په لور قدم کېښودلو، د شا له اړخه مې د انا ټوخی واورېده. کیلې مې د خپلو جامو لاندې پټې کړې او د هغې څخه تېره شومه.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
 	روز بعد، وقتی که مادربزرگ درحال چیدن سبزی‌ها در باغ بود، من آهسته آمدم و دزدکی به کیله‌ها نگاه کردم. تقریبا همه‌ی آن‌ها رسیده بودند. من نتوانستم جلوی خودم را بگیرم و یک دسته ی چهار تایی کیله برداشتم. همان طور که آهسته، آهسته به طرف دروازه می‌رفتم، صدای سرفه‌ی مادربزرگ را از بیرون شنیدم. من توانستم که کیله‌ها را زیر لباسم پنهان کنم و از کنار او تیر شوم.
@@ -318,12 +281,11 @@ As I tiptoed towards the door, I heard grandma coughing outside. I just managed 
 	<div class="btn-group switcher-group">
 		<a href="#text08" class="btn btn-lg" title="صفحه قبلی"><i class="icon-arrow-up"></i></a>
 		<a href="#text10" class="btn btn-lg" title="صفحه بعدی"><i class="icon-arrow-down"></i></a>
-		<audio id="audio09" onended="resetbutton('09')" src="https://globalstorybooks.net/media/audio/en/0294/mp3/09.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton09" onclick="playpause('09')" title="شروع/مکث"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton09" onclick="playpause('09')" title="شروع/مکث"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('en,prs','prs,ps,en')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان و انگلیسی">prs</button>
-		<button onclick="switchlang('en,ps','prs,ps,en')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو و انگلیسی">ps</button>
+		<button onclick="switchlang('ps,prs','prs,ps,ps')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان">prs</button>
+		<button onclick="switchlang('ps,ps','prs,ps,ps')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو">ps</button>
 	</div>
 </div>
 
@@ -332,10 +294,8 @@ As I tiptoed towards the door, I heard grandma coughing outside. I just managed 
 
 <div id="text10" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0294/10.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3 dir="ltr">
-	The following day was market day. Grandma woke up early. She always took ripe bananas and cassava to sell at the market.
-
-I did not hurry to visit her that day. But I could not avoid her for long.
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
+	بله ورځ د هغې بازار ورځ وه. انا مې سهار وختي له خوبه پاڅېده. هغې به تل پخې کېلې او کاساوا په بازار کې پلورل. ما په هغې ورځ د هغې لیدو ته بیړه ونه کړه. خو دا مې هم نه شو کولی چې د ډېر وخت لپاره د هغې څخه لرې واوسم او هغه ونه ګورم.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
 	روز بعد، روز بازار بود. مادربزرگ صبح زود بیدار شد. او همیشه کیله‌های رسیده و کچالوهای شیرین را برای فروش به بازار می‌برد. من آن روز برای دیدن او عجله نکردم. اما نتوانستم برای مدت طولانی خودم را از او پنهان کنم.
@@ -347,12 +307,11 @@ I did not hurry to visit her that day. But I could not avoid her for long.
 	<div class="btn-group switcher-group">
 		<a href="#text09" class="btn btn-lg" title="صفحه قبلی"><i class="icon-arrow-up"></i></a>
 		<a href="#text11" class="btn btn-lg" title="صفحه بعدی"><i class="icon-arrow-down"></i></a>
-		<audio id="audio10" onended="resetbutton('10')" src="https://globalstorybooks.net/media/audio/en/0294/mp3/10.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton10" onclick="playpause('10')" title="شروع/مکث"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton10" onclick="playpause('10')" title="شروع/مکث"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('en,prs','prs,ps,en')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان و انگلیسی">prs</button>
-		<button onclick="switchlang('en,ps','prs,ps,en')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو و انگلیسی">ps</button>
+		<button onclick="switchlang('ps,prs','prs,ps,ps')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان">prs</button>
+		<button onclick="switchlang('ps,ps','prs,ps,ps')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو">ps</button>
 	</div>
 </div>
 
@@ -361,10 +320,8 @@ I did not hurry to visit her that day. But I could not avoid her for long.
 
 <div id="text11" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0294/11.jpg"></div>
-	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3 dir="ltr">
-	Later that evening I was called by my mother and father, and Grandma. I knew why.
-
-That night as I lay down to sleep, I knew I could never steal again, not from grandma, not from my parents, and certainly not from anyone else.
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
+	په هماغه ورځ ماښام کې، مور، پلار او نیا جانې ماته غږ کړ. زه پوهیدم چې ولې. په هغه شپه چې زه ویده شوم، زه پوهیدم چې دوی ولې ما ته غږ کوي. کله چې په کټ کې د خوب په موخه څملاستم، پدې پوهه شوم چې زه به هیڅکله هم د انا څخه، د مور او پلار څخه، او یا هم د بل هیچا څخه غلا ونکړم.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
 	بعد از ظهر همان روز، مادر و پدر و مادربزرگم مرا صدا زدند. من دلیلش را می‌دانستم. آن شب وقتی که دراز کشیده بودم که بخوابم، من می‌دانستم که دیگر نمی‌توانم هیچوقت دوباره، نه از مادربزرگ، نه از پدر و مادرم و نه از هیچکس دیگر دزدی کنم.
@@ -376,12 +333,11 @@ That night as I lay down to sleep, I knew I could never steal again, not from gr
 	<div class="btn-group switcher-group">
 		<a href="#text10" class="btn btn-lg" title="صفحه قبلی"><i class="icon-arrow-up"></i></a>
 		<a href="#colophon" class="btn btn-lg" title="اعتباردهی داستان"><i class="icon-arrow-down"></i></a>
-		<audio id="audio11" onended="resetbutton('11')" src="https://globalstorybooks.net/media/audio/en/0294/mp3/11.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton11" onclick="playpause('11')" title="شروع/مکث"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton11" onclick="playpause('11')" title="شروع/مکث"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('en,prs','prs,ps,en')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان و انگلیسی">prs</button>
-		<button onclick="switchlang('en,ps','prs,ps,en')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو و انگلیسی">ps</button>
+		<button onclick="switchlang('ps,prs','prs,ps,ps')" class="btn btn-lg lang-primary" title="تغییر بین فارسی افغانستان">prs</button>
+		<button onclick="switchlang('ps,ps','prs,ps,ps')" class="btn btn-lg lang-secondary" title="تغییر بین پشتو">ps</button>
 	</div>
 </div>
 
@@ -393,24 +349,23 @@ That night as I lay down to sleep, I knew I could never steal again, not from gr
 	<div class="column col-7 col-lg-12 col-md-12 col-sm-12">
 		<h5><span class="colophon-heading">نویسنده:</span> Ursula Nafula</h5>
 		<h5><span class="colophon-heading">نقاش:</span> Catherine Groenewald</h5>
-		<h5><span class="colophon-heading">خواننده:</span> Darshan Soni</h5>
-		<h5><span class="colophon-heading">زبان:</span> <a href="/storybooks-afghanistan/stories/en">انگلیسی</a></h5>
-		<h5><span class="colophon-heading">سطح:</span> <a href="/storybooks-afghanistan/stories/en/level4">سطح 4</a></h5>
+		<h5><span class="colophon-heading">مترجم:</span> Zahidullah Abid</h5>
+		<h5><span class="colophon-heading">زبان:</span> <a href="/storybooks-afghanistan/stories/ps">پشتو</a></h5>
+		<h5><span class="colophon-heading">سطح:</span> <a href="/storybooks-afghanistan/stories/ps/level4">سطح 4</a></h5>
 		<h5><span class="colophon-heading">منبع:</span> <a href="https://africanstorybook.org/reader.php?id=2094" target="_blank">Grandma's bananas</a> از <a href="https://africanstorybook.org/">داستان افریقا</a></h5>
 
 		<div><a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.fa" target="_blank"><img alt="جواز کریتو کامینز" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />تحت مجوز <a rel="license" href="https://creativecommons.org/licenses/by/3.0/deed.fa" target="_blank">کریتو کامینز اعتباردهی 3.0 تبدیل نشده</a> کریتز کامنز به نشر رسید.</div>
 
 	</div>
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12">
-		<h5>بیشتر بخوانید <a href="/storybooks-afghanistan/stories/en/level4">سطح 4</a> داستان ها:</h5>
-			<label class="chip"><a href="/storybooks-afghanistan/stories/en/0243/">Holidays with grandmother</a></label>
-			<label class="chip"><a href="/storybooks-afghanistan/stories/en/0072/">The Honeyguide’s revenge</a></label>
-			<label class="chip"><a href="/storybooks-afghanistan/stories/en/0291/">What Vusi’s sister said</a></label>
+		<h5>بیشتر بخوانید <a href="/storybooks-afghanistan/stories/ps/level4">سطح 4</a> داستان ها:</h5>
+			<label class="chip"><a href="/storybooks-afghanistan/stories/ps/0243/">د نیا سره په رخصتیو کې</a></label>
+			<label class="chip"><a href="/storybooks-afghanistan/stories/ps/0291/">د سلیم خور څه وویل</a></label>
 	</div>
 </div>
 <div>
 <h5>گزینه‌ها</h5>
-	<a class="btn btn-lg" href="/storybooks-afghanistan/stories/en" class="button">برگشت به فهرست داستان‌ها</a> <span class="tooltip tooltip-top" data-tooltip="بارگذاری پی دی اف برای این داستان فعلاً ممکن نیست."><a class="btn btn-lg disabled">بارگذاری پی دی اف</a></span>
+	<a class="btn btn-lg" href="/storybooks-afghanistan/stories/ps" class="button">برگشت به فهرست داستان‌ها</a> <span class="tooltip tooltip-top" data-tooltip="بارگذاری پی دی اف برای این داستان فعلاً ممکن نیست."><a class="btn btn-lg disabled">بارگذاری پی دی اف</a></span>
 <br><br>
 </div>
 
